@@ -4,7 +4,8 @@ var module = angular.module("md-angular-datetime-picker", [
 	"ngMaterial",
 	"ngAnimate",
 	"ngAria"
-]); 
+]);
+
 
 module.controller('DatePickerCtrl', ['$scope', '$mdDialog', 'currentDate', '$mdMedia', function($scope, $mdDialog, currentDate, $mdMedia) {
     var self = this;
