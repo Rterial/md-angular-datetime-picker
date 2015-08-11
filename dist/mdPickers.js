@@ -1,6 +1,6 @@
 (function() {
 "use strict";
-var module = angular.module("mdPickers", [
+var module = angular.module("md-angular-datetime-picker", [
 	"ngMaterial",
 	"ngAnimate",
 	"ngAria"

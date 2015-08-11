@@ -8,7 +8,7 @@
 
 #### Breaking Changes
 
-Repository name is changed to `mdPickers`. The goal is to have a both date and time pickers in the same module.
+Repository name is changed to `md-angular-datetime-picker`. The goal is to have a both date and time pickers in the same module.
 
 ### 0.1.0
 

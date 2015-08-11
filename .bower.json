@@ -1,14 +1,14 @@
 {
-  "name": "mdPickers",
+  "name": "md-angular-datetime-picker",
   "version": "0.3.0",
-  "homepage": "https://github.com/jaschweder/mdPickers",
+  "homepage": "https://github.com/jaschweder/md-angular-datetime-picker",
   "authors": [
     "jaschweder"
   ],
   "description": "Material Design date/time pickers built with Angular Material and Moment.js",
   "main": [
-    "dist/mdPickers.min.js",
-    "dist/mdPickers.min.css"
+    "dist/md-angular-datetime-picker.min.js",
+    "dist/md-angular-datetime-picker.min.css"
   ],
   "keywords": [
     "angular",
@@ -36,8 +36,8 @@
     "tag": "0.3.0",
     "commit": "29df95d244aefa3e10a0940669e6f29d1f00e2f3"
   },
-  "_source": "git://github.com/jaschweder/mdPickers.git",
+  "_source": "git://github.com/jaschweder/md-angular-datetime-picker.git",
   "_target": "~0.3.0",
-  "_originalSource": "mdPickers",
+  "_originalSource": "md-angular-datetime-picker",
   "_direct": true
 }

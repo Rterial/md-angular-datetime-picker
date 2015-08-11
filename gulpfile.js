@@ -11,11 +11,11 @@ var gulp = require('gulp'),
     path = require('path');
 
 var outputFolder = 'dist/';
-var moduleName = 'mdPickers';
+var moduleName = 'md-angular-datetime-picker';
 
 gulp.task('assets', function() {
   return gulp.src('src/components/**/*.less')
-        .pipe(concat('mdPickers.less'))
+        .pipe(concat('md-angular-datetime-picker.less'))
         .pipe(less())
         .pipe(gulp.dest(outputFolder))
         .pipe(rename({suffix: '.min'}))
@@ -23,9 +23,9 @@ gulp.task('assets', function() {
         .pipe(gulp.dest(outputFolder));
 });
 
-gulp.task('build-app', function() {  
-    return gulp.src(['src/mdPickers.js', 'src/components/**/*.js'])
-        .pipe(concat('mdPickers.js'))
+gulp.task('build-app', function() {
+    return gulp.src(['src/md-angular-datetime-picker.js', 'src/components/**/*.js'])
+        .pipe(concat('md-angular-datetime-picker.js'))
         .pipe(wrap('(function() {\n"use strict";\n<%= contents %>\n})();'))
         .pipe(sourcemaps.init())
         .pipe(gulp.dest(outputFolder))
